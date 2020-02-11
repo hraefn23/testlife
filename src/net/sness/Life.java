@@ -5,6 +5,9 @@ public class Life {
     public Life() {
     }
 
+    public Life(int x, int y) {
+    }
+
     public void clear() {
     }
 
