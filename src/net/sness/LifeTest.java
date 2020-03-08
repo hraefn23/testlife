@@ -1,32 +1,19 @@
 package net.sness;
 
+import org.junit.jupiter.api.*;
+
 class LifeTest {
 
-    @org.junit.jupiter.api.BeforeEach
+    @BeforeEach
     void setUp() {
     }
 
-    @org.junit.jupiter.api.AfterEach
+    @AfterEach
     void tearDown() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void clear() {
     }
 
-    @org.junit.jupiter.api.Test
-    void randomize() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void testPattern() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void step() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void print() {
-    }
 }
