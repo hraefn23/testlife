@@ -2,18 +2,15 @@ package net.sness;
 
 import org.junit.jupiter.api.*;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class LifeTest {
 
-    @BeforeEach
-    void setUp() {
-    }
-
-    @AfterEach
-    void tearDown() {
-    }
-
     @Test
-    void clear() {
+    void shouldInitializeToAllZeroGrid() {
+        Life life = new Life();
+        String s = life.toString();
+        assertEquals("000\n000\n000\n", s);
     }
 
 }
