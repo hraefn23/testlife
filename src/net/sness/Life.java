@@ -49,6 +49,14 @@ public class Life {
         }
         return str.toString();
     }
+
+    public void set(int i, int x, int y) {
+        cells.get(x).set(y,i);
+    }
+
+    public int get(int x, int y) {
+        return cells.get(x).get(y);
+    }
 }
 
 
