@@ -25,7 +25,16 @@ class LifeTest {
         Life life = new Life(1,1);
         life.set(1,0,0);
         int i = life.get(0,0);
-        assertEquals(i,1);
+        assertEquals(1, i);
+    }
+
+    @Test
+    public void singleCellWithNoNeighboursShouldStep() {
+        Life life = new Life(1,1);
+        life.set(1,0,0);
+        life.step();
+        int i = life.get(0,0);
+        assertEquals(0, i);
     }
 
 }
